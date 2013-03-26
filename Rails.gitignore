@@ -1,0 +1,33 @@
+*.rbc
+*.sassc
+
+### SASS Ignores
+.sass-cache
+
+capybara-*.html
+.rspec
+.rvmrc
+/.bundle
+/vendor/bundle
+/public/system/*
+/coverage/
+/spec/tmp/*
+**.orig
+rerun.txt
+
+# Ignore databse config
+/config/database.yml
+/config/mongoid.yml
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+/spec/tmp/*
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
