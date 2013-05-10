@@ -1,24 +1,24 @@
-# .idea  files come from Ruby Mine, a Rails IDE.
+### .idea  files come from Ruby Mine, a Rails IDE. ###
 .idea
 .idea/workspace.xml
 
-# Eclipse Files #
+### Eclipse Files ###
 .classpath
 .project
 .settings/
 
-# Ignore Vim untitled and unsaved buffer swapfiles
+### Ignore Vim untitled and unsaved buffer swapfiles ###
 *.s[a-w][a-z]
 *.un~
 Session.vim
 .netrwhist
 *~
 
-# .project files come from Aptana Studio, a Rails IDE.
+### .project files come from Aptana Studio, a Rails IDE. ###
 pickle-email-*.html
 .project
 
-# Files from NetBeans IDE
+### Files from NetBeans IDE ###
 nbproject/private/
 build/
 nbbuild/
@@ -27,10 +27,16 @@ nbdist/
 nbactions.xml
 nb-configuration.xml
 
-# SublimeText project files
+### SublimeText project files ###
 *.sublime-workspace
 
-# Files from Textmate IDE
+### Files from Textmate IDE ###
 *.tmproj
 *.tmproject
 tmtags
+
+### File from IntelliJ ###
+*.iml
+*.ipr
+*.iws
+.idea/
